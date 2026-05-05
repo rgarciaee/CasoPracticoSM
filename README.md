@@ -6,15 +6,14 @@ Estructura general del repositorio
 ```text
 proyecto-clonacion-voz/
 ├── audios_originales/
-│   └── referencia_ingles.wav
+│   └── audio_doblado_es.wav
 ├── audios_generados/
 │   ├── vits_output.wav
 │   ├── bark_output.wav
 │   └── xtts_output.wav
-├── video_caso_practico/
-│   ├── actor_original.wav
-│   └── audio_doblado_es.wav
-├── demo_sintesis_voz.ipynb
+├── CasoPractico.ipynb
+├── Caso Practico Documentacion.pdf
+├── Caso Practico Presetnacion.pdf
 ├── environment.yml
 └── README.md
 ```
