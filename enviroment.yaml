@@ -1,0 +1,16 @@
+name: tts_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchaudio
+  - jupyter
+  - pip
+  - pip:
+    - TTS==0.22.0 # Librería de Coqui
+    - bark==0.1.5 # Librería de Suno para Bark
+    - librosa
+    - soundfile
