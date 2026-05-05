@@ -3,10 +3,18 @@ Repositorio público para el caso práctico de Síntesis y Clonación de voz con
 
 Estructura general del repositorio
 
+```text
 proyecto-clonacion-voz/
-├── audios_originales/      # Audios de muestra para clonar (ej. tu propia voz)
-├── audios_generados/       # Resultados de Bark, XTTS, etc.
-├── video_caso_practico/    # Video original y video doblado
-├── environment.yml         # Dependencias del entorno
-├── demo_sintesis_voz.ipynb # Notebook interactivo principal
-└── README.md               # Documentación del proyecto
+├── audios_originales/
+│   └── referencia_ingles.wav
+├── audios_generados/
+│   ├── vits_output.wav
+│   ├── bark_output.wav
+│   └── xtts_output.wav
+├── video_caso_practico/
+│   ├── actor_original.wav
+│   └── audio_doblado_es.wav
+├── demo_sintesis_voz.ipynb
+├── environment.yml
+└── README.md
+```
